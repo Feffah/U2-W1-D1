@@ -309,20 +309,31 @@ footer a {
     }
 
     article iframe {
-        width: 50%;
+        width: 45%;
         height: 270px;
         border-radius: 20px;
     }
 
     section {
-        width: 50%;
+        width: 45%;
+        height: 270px;
         border-radius: 20px;
         display: inline-block
     }
 
+    aside {
+        text-align: center;
+    }
+
     aside div {
         display: inline-block;
-        width: 30%;
+        width: 33%;
         margin: auto;
+        text-align: left;
+    }
+
+    aside div a {
+        font-weight: bold;
+        font-size: 1.5rem;
     }
 }
